@@ -60,6 +60,10 @@ public class WorkerData {
         this.departament = departament;
     }
 
+    public List<HourContract> getContracts() {
+        return contracts;
+    }
+
     public void addContract (HourContract contract) {
         contracts.add(contract);
     }
