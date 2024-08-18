@@ -1,10 +1,11 @@
 package application.data.workers.entites;
 
 import java.time.Instant;
+import java.util.Date;
 
 public class HourContract {
 
-    private Instant date;
+    private Date date;
 
     private Double valuePerHour;
 
@@ -14,13 +15,13 @@ public class HourContract {
 
     }
 
-    public HourContract(Instant date, Double valuePerHour, Integer hours) {
+    public HourContract(Date date, Double valuePerHour, Integer hours) {
         this.date = date;
         this.valuePerHour = valuePerHour;
         this.hours = hours;
     }
 
-    public Instant getDate() {
+    public Date getDate() {
         return date;
     }
 
