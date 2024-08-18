@@ -18,4 +18,8 @@ public class Departament {
         this.name = name;
     }
 
+    @Override
+    public String toString() {
+        return name;
+    }
 }
